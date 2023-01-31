@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: tomato;
+    height: 100px;
+    display: inline-block;
+}
+
+/* con display inline gli do le proprietà box inline, segue ciò che è scritto dentro */
+/* con inline block il testo vicino va accanto e non a capo, e al box posso modificare la dimensione */
+
+header{
+    text-align: center;
+
+}
+header img{
+    width: 500px;
+    vertical-align: middle;
+}
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* per centrare nel contenitore si usa line heigt, per centrare due elementi tra di loro si usa vertical align */

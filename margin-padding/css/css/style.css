@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* border box non cambiano le dimensioni se mettiamo bordi ecc */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+}
+/* padding per spazio interno, margin per spazio esterno */
+
+.circle{
+    border-radius: 1rem;
+}
+/* border radius per stondare i bordi e gli angoli di un box */
