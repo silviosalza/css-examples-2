@@ -1,3 +1,12 @@
 body{
     background-color: aquamarine;
 }
+.title{
+    font-size: 3rem;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+
+/* rem è l'unità di misura standard del nostro pc (guardare impostazione aspetto)
+1 rem è standard */
