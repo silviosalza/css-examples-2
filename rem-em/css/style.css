@@ -1,12 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
 body{
     background-color: aquamarine;
 }
 .title{
     font-size: 3rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 .paragraph{
     font-size: 1.5rem;
 }
 
+.title-rem{
+    font-size: 2rem;
+}
+.title-em{
+    font-size: 2em;
+}
+
+section{
+    font-size: 2rem;
+}
+
 /* rem è l'unità di misura standard del nostro pc (guardare impostazione aspetto)
 1 rem è standard */
+/* em prende la misura standard del proprio genitore, non dello standard dello schermo (16PX) */
+
+/* USARE SEMPRE REM E EM PER I FONT */
+
+/* Si utilizza margin em per far scalare il margine a seconda della grandezza del testo (si utilizza spesso nei titoli) */
+
+/* padding si usa per lo spazio interno */
